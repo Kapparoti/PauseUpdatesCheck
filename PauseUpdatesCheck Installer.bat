@@ -63,10 +63,10 @@ schtasks /run /tn "%TASK_NAME%"
 
 echo.
 echo Installation complete.
+echo You will be warned after %DAYS_INPUT% day(s) without updates.
 echo.
 echo NOTE: The script will run at every log-in directly from: %MAIN_SCRIPT%,
 echo so if you move or delete it, the task will stop working correctly.
-echo You will be warned after %DAYS_INPUT% day(s) without updates.
 
 echo.
 pause
